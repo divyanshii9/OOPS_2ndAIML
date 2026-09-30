@@ -31,6 +31,7 @@ int main() {
         cout << "\nEnter details of student " << i + 1 << endl;
         s[i].read();
     } 
+    cout<<"Student Details"<<endl;
     for (int i = 0; i < n; i++) {
         s[i].display();
         cout << endl;
